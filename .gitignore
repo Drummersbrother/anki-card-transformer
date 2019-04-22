@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Manually added ignores
+ib_smart_prep/data/
+ib_smart_prep/.idea/
+
+# Should ignore most of vim's temp files
+*~
+.*.sw?
