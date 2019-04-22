@@ -106,6 +106,7 @@ venv.bak/
 # Manually added ignores
 ib_smart_prep/data/
 ib_smart_prep/.idea/
+ib_smart_prep/parameters.py
 
 # Should ignore most of vim's temp files
 *~
