@@ -35,7 +35,7 @@ for origin_tone in origin_tones:
         scale_m = stream.Measure()
 
         if inx == 0:
-            scale_te = expressions.TextExpression(origin_tone[0].capitalize())
+            scale_te = expressions.TextExpression(origin_tone[:-1].capitalize())
             scale_te.positionPlacement = "above"
             scale_te.style.fontSize = 20.0
             scale_m.append(scale_te)
