@@ -1,0 +1,10 @@
+[Unit]
+Description=Gunicorn server for serving auto-generated anki decks to Joel
+
+[Service]
+Type=simple
+User=hugo_dev
+ExecStart=/home/hugo_dev/progs/anki-card-transformer/joel_anki/start_app.sh
+
+[Install]
+WantedBy=multi-user.target
